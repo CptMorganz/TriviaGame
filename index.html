@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Trivia Game!</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- CSS files. -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<!-- Jumbotron header. -->
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>Web Development Trivia!</h1>
+		</div>
+	</div>
+
+	<!-- Time remaining before the trivia game ends automatically. -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
+					<h3 id="time-left">10 Seconds Remaing</h3>
+				<hr>
+			</div>
+		</div>
+	</div>
+
+	<!-- Start button to start the trivia game. -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<button id="start" type="button">Start!</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Space between button and questions -->
+	<br>
+	<br>
+
+	<!-- Questions container to add questions on start, and show results on submit or t/o. -->
+	<div class="container" id="questions">
+		<div class="row">
+			<div class="col-md-12" id="q1">test 1</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12" id="q2">test 2</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12" id="q3">test 3</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12" id="q4">test 4</div>
+		</div>
+	</div>
+
+	<script src="assets/javascript/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+/*body {
+	background-image: url(../images/background.jpg);
+	background-repeat:no-repeat;
+   	background-size:cover;
+}*/
+
+.jumbotron {
+	background-color: rgba(0,0,0,0);
+	color: black;
+}
+
+#time-left {
+	text-align: center;
+	/*background-color: teal;
+	padding: 20px;*/
+	font: bold arial, sans-serif;
+}
+
+#start {
+	padding: 10px;
+	font: bold 40px arial, sans-serif;
+}
+
+#questions, #q1, #q2, #q3, #q4 {
+	padding: 20px;
+	text-align: center;
+	font: bold 20px arial, sans-serif;
+}
