@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Googlefont for styling -->
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
 	<!-- CSS files. -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -43,19 +45,21 @@
 	<br>
 	<br>
 
-	<!-- Questions container to add questions on start, and show results on submit or t/o. -->
-	<div class="container" id="questions">
+	<div class="container text-center">
+		<div id="status"></div>
+	</div>
+
+	<!-- Questions container to add questions on start, and show results on submit or timeout. -->
+	<div class="container" id="questionBox">
 		<div class="row">
-			<div class="col-md-12" id="q1">test 1</div>
+			<div class="col-md-12 text-center" id="question"></div>
 		</div>
+	</div>
+
+	<!-- Submit button to submit the answers for the trivia game. -->
+	<div class="container">
 		<div class="row">
-			<div class="col-md-12" id="q2">test 2</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12" id="q3">test 3</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12" id="q4">test 4</div>
+			<div class="col-md-12 text-center" id="submitBtn"></div>
 		</div>
 	</div>
 

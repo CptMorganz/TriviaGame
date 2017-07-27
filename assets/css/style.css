@@ -1,28 +1,30 @@
-/*body {
+body {
 	background-image: url(../images/background.jpg);
 	background-repeat:no-repeat;
    	background-size:cover;
-}*/
+}
 
 .jumbotron {
 	background-color: rgba(0,0,0,0);
-	color: black;
+	color: white;
+	font: bold 'Share Tech Mono', monospace;
 }
 
-#time-left {
+#time-left, #status, h4, h3 {
+	color: white;
 	text-align: center;
-	/*background-color: teal;
-	padding: 20px;*/
-	font: bold arial, sans-serif;
+	font: bold 'Share Tech Mono', monospace;
 }
 
-#start {
+#start, #submit {
+	background-color: rgb(50, 205, 50);
 	padding: 10px;
-	font: bold 40px arial, sans-serif;
+	font: bold 40px 'Share Tech Mono', monospace;
 }
 
-#questions, #q1, #q2, #q3, #q4 {
+#questionBox, #question {
+	color: white;
 	padding: 20px;
 	text-align: center;
-	font: bold 20px arial, sans-serif;
+	font: bold 20px 'Share Tech Mono', monospace;
 }
